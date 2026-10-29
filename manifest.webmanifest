@@ -1,0 +1,26 @@
+{
+  "name": "Masjid Al Barokah",
+  "short_name": "Masjid Al Barokah",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7faf9",
+  "theme_color": "#006A5E",
+  "description": "Website profil masjid contoh untuk Jasinga, Kabupaten Bogor.",
+  "icons": [
+    {
+      "src": "assets/images/logo/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/logo/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/logo/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

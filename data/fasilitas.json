@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Area salat putra",
+    "icon": "bi-moon-stars",
+    "description": "Area shalat utama untuk jamaah laki-laki dengan kapasitas nyaman dan sistem ventilasi yang baik."
+  },
+  {
+    "name": "Area salat putri",
+    "icon": "bi-flower1",
+    "description": "Ruang shalat khusus perempuan yang tertata rapi dan aman untuk ibadah harian."
+  },
+  {
+    "name": "Tempat wudhu",
+    "icon": "bi-droplet",
+    "description": "Area wudhu yang bersih, cukup, dan terpisah untuk ruang laki-laki dan perempuan."
+  },
+  {
+    "name": "Parkir",
+    "icon": "bi-car-front",
+    "description": "Area parkir motor dan mobil sederhana yang menampung jamaah saat kegiatan ramai."
+  },
+  {
+    "name": "Perpustakaan",
+    "icon": "bi-book",
+    "description": "Ruang baca yang menyediakan buku keagamaan dan literatur umum untuk masyarakat."
+  },
+  {
+    "name": "Kipas angin dan ventilasi",
+    "icon": "bi-wind",
+    "description": "Penyediaan kipas angin dan ventilasi udara di ruang utama agar jamaah tetap nyaman."
+  }
+]

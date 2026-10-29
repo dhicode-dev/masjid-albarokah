@@ -1,0 +1,64 @@
+{
+  "site": {
+    "name": "Masjid Al Barokah",
+    "tagline": "Menyatukan ibadah, pendidikan, dan kebersamaan komunitas Jasinga.",
+    "baseUrl": "https://masjidalbarokah.org/",
+    "yearFounded": 1998,
+    "capacity": 800,
+    "openHours": "04.00-22.00 WIB",
+    "phone": "0838-9702-6202",
+    "whatsapp": "0838-9702-6202",
+    "address": "Kp. Sipak 1 RT002 RW004 (Lebak), Kecamatan Jasinga, Kabupaten Bogor",
+    "addressShort": "Kp. Sipak 1 RT002 RW004 (Lebak), Jasinga, Bogor",
+    "plusCode": "GF9G+XF2",
+    "latitude": -6.480113,
+    "longitude": 106.476141,
+    "mapsUrl": "https://www.google.com/maps/place/GF9G%2BXF2+(Jasinga,+Kabupaten+Bogor)",
+    "directionUrl": "https://www.google.com/maps/dir/?api=1&destination=-6.480113,106.476141",
+    "googleSiteVerification": "",
+    "measurementId": ""
+  },
+  "social": {
+    "instagram": "@masjidalbarokah",
+    "facebook": "@masjidalbarokah",
+    "youtube": "@masjidalbarokah"
+  },
+  "donasi": {
+    "accounts": [
+      {
+        "bank": "Bank Syariah Indonesia (BSI)",
+        "accountNumber": "7290100757",
+        "accountName": "Masjid Al Barokah"
+      },
+      {
+        "bank": "Bank Pembangunan Jawa Barat (BJB)",
+        "accountNumber": "0148061629100",
+        "accountName": "MASJID AL BAROKAH"
+      }
+    ],
+    "target": 250000000,
+    "terkumpul": 87500000,
+    "sampleData": false
+  },
+  "keuangan": {
+    "kolom": {
+      "bulan": "Bulan",
+      "saldo_akhir": "Saldo Akhir",
+      "label_saldo_awal": "Saldo Awal",
+      "pemasukan": [
+        "Infak",
+        "Sedekah",
+        "Donasi",
+        "Lainnya"
+      ],
+      "pengeluaran": [
+        "Operasional",
+        "Kebersihan",
+        "Listrik",
+        "Air",
+        "Kegiatan",
+        "Pembangunan"
+      ]
+    }
+  }
+}

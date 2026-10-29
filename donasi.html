@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <meta name="theme-color" content="#006A5E" />
+    <meta property="og:title" content="Donasi Masjid | Masjid Al Barokah" />
+    <meta property="og:description" content="Informasi donasi, kebutuhan barang, dan pengembangan masjid Al Barokah di Jasinga." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/images/background-masjid.jpg" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="canonical" href="https://masjidalbarokah.org/donasi.html" />
+    <title>Donasi Masjid | Masjid Al Barokah</title>
+    <meta name="description" content="Informasi donasi, kebutuhan barang, dan pengembangan masjid Al Barokah di Jasinga." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" href="assets/images/logo/favicon-32.png" type="image/png" />
+  </head>
+  <body>
+    <header class="navbar"><div class="container navbar-inner"><a class="brand" href="index.html"><img src="assets/images/logo/masjid-lambang-128.png" alt="Logo Masjid Al Barokah" /><span>Masjid Al Barokah</span></a><button class="nav-toggle" aria-label="Buka menu navigasi" type="button">☰</button><nav aria-label="Navigasi utama"><ul class="nav-links"><li><a href="index.html">Beranda</a></li><li><a href="profil.html">Profil</a></li><li><a href="jadwal-salat.html">Jadwal Salat</a></li><li><a href="kegiatan.html">Kegiatan</a></li><li><a href="berita.html">Berita</a></li><li><a href="pengumuman.html">Pengumuman</a></li><li><a href="galeri.html">Galeri</a></li><li><a href="pengurus.html">Pengurus</a></li><li><a href="fasilitas.html">Fasilitas</a></li><li><a href="kontak.html">Kontak</a></li><li><a href="donasi.html" class="active">Donasi</a></li></ul></nav><div class="nav-actions"><a class="btn btn-primary" href="donasi.html">Donasi</a></div></div></header>
+    <main>
+      <section class="page-header">
+        <div class="container">
+          <h1 data-i18n="pageDonate">Donasi &amp; Pengembangan Masjid</h1>
+          <p data-i18n="donateDesc">Donasi dana dan kebutuhan barang untuk mendukung pembangunan dan perawatan fasilitas masjid.</p>
+        </div>
+      </section>
+
+      <section class="page-content">
+        <div class="container">
+          <div class="feature-card" style="margin-bottom: 24px;">
+            <div class="kicker" data-i18n="donationAccounts">Nomor rekening donasi</div>
+            <h2 data-i18n="donationTitle">Transfer untuk dukungan masjid</h2>
+            <p style="margin-top:8px; color:#6b7280;" data-i18n="chooseAccount">Pilih rekening untuk donasi</p>
+            <div style="display:grid; gap:16px; margin-top: 16px;">
+              <div style="background:#f5faf8; border:1px solid rgba(0,106,94,0.12); border-radius:12px; padding:16px;">
+                <div style="height:56px; display:flex; align-items:center; justify-content:flex-start; margin-bottom:12px;">
+                  <img src="assets/images/logo/bank-bsi.jpg" alt="Logo BSI" style="height:36px; max-width:160px; object-fit:contain;" />
+                </div>
+                <p style="font-weight:600; color:#006A5E; margin-bottom:8px;" data-i18n="accountBSI">BSI - Bank Syariah Indonesia</p>
+                <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap;">
+                  <span id="bsiAccountNumber" style="font-weight:700; letter-spacing:0.04em; font-size:1.1rem;">7290100757</span>
+                  <button class="btn btn-primary" type="button" id="copyBsiBtn" data-i18n="copyAccount">Salin nomor</button>
+                </div>
+                <p style="margin-top:8px; font-size:0.9rem; color:#6b7280;"><strong data-i18n="accountName">Atas nama:</strong> <span data-i18n="siteName">Masjid Al Barokah</span></p>
+              </div>
+              <div style="background:#f5faf8; border:1px solid rgba(0,106,94,0.12); border-radius:12px; padding:16px;">
+                <div style="height:56px; display:flex; align-items:center; justify-content:flex-start; margin-bottom:12px;">
+                  <img src="assets/images/logo/bank-bjb.jpg" alt="Logo BJB" style="height:48px; max-width:160px; object-fit:contain;" />
+                </div>
+                <p style="font-weight:600; color:#006A5E; margin-bottom:8px;" data-i18n="accountBJB">BJB - Bank Pembangunan Jawa Barat</p>
+                <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap;">
+                  <span id="bjbAccountNumber" style="font-weight:700; letter-spacing:0.04em; font-size:1.1rem;">0148061629100</span>
+                  <button class="btn btn-primary" type="button" id="copyBjbBtn" data-i18n="copyAccount">Salin nomor</button>
+                </div>
+                <p style="margin-top:8px; font-size:0.9rem; color:#6b7280;"><strong data-i18n="accountName">Atas nama:</strong> <span data-i18n="siteName">Masjid Al Barokah</span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-card" style="margin-bottom: 24px;">
+            <div class="kicker" data-i18n="spreadsheetData">Data terkini dari spreadsheet</div>
+            <h2 data-i18n="donationSummary">Ringkasan donasi</h2>
+            <div id="donationSummary" style="margin-top: 16px;"></div>
+          </div>
+
+          <div class="feature-card">
+            <h2 data-i18n="spreadsheetUpdate">Data dapat diperbarui dari spreadsheet</h2>
+            <p data-i18n="spreadsheetDesc">Data di halaman ini akan otomatis ditampilkan dari spreadsheet yang telah ditentukan oleh pengurus. Sambungan data ini dibuat agar pembaruan dana tetap cepat tanpa perlu menulis ulang manual di halaman.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3 data-i18n="siteName">Masjid Al Barokah</h3>
+        </div>
+        <div>
+          <h4 data-i18n="footerContact">Kontak</h4>
+          <ul>
+            <li data-i18n="phone">Telepon</li>
+            <li>0838-9702-6202</li>
+            <li data-i18n="whatsapp">WhatsApp</li>
+            <li>0838-9702-6202</li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footerAddress">Alamat</h4>
+          <ul>
+            <li>Kp. Sipak 1 RT002 RW004 (Lebak)</li>
+            <li>Kecamatan Jasinga, Kabupaten Bogor</li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footerHours">Jam</h4>
+          <ul>
+            <li>04.00 - 22.00 WIB</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">© <span id="currentYear">2026</span> <span data-i18n="siteName">Masjid Al Barokah</span><br />By Develop Rivaldi Hidayatullah</div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+    <script>
+      const donationConfig = {
+        accounts: [
+          {
+            bank: 'Bank Syariah Indonesia (BSI)',
+            accountNumber: '7290100757',
+            accountName: 'Masjid Al Barokah'
+          },
+          {
+            bank: 'Bank Pembangunan Jawa Barat (BJB)',
+            accountNumber: '0148061629100',
+            accountName: 'MASJID AL BAROKAH'
+          }
+        ],
+        target: 250000000,
+        terkumpul: 87500000,
+        spreadsheetUrl: 'https://docs.google.com/spreadsheets/d/1r1YORwHudpo09G49R0n2sbYY8Vr_mkvZ7m-r2AJSB9k/edit?usp=drivesdk'
+      };
+
+      function formatRupiah(value) {
+        return new Intl.NumberFormat('id-ID', {
+          style: 'currency',
+          currency: 'IDR',
+          maximumFractionDigits: 0
+        }).format(Number(value || 0));
+      }
+
+      function parseCsvRows(csvText) {
+        const rows = [];
+        const lines = String(csvText || '').split(/\r?\n/).filter((line) => line.trim());
+
+        lines.forEach((line) => {
+          const cells = [];
+          let current = '';
+          let inQuotes = false;
+
+          for (let i = 0; i < line.length; i += 1) {
+            const char = line[i];
+            if (char === '"') {
+              if (inQuotes && line[i + 1] === '"') {
+                current += '"';
+                i += 1;
+              } else {
+                inQuotes = !inQuotes;
+              }
+            } else if (char === ',' && !inQuotes) {
+              cells.push(current.trim());
+              current = '';
+            } else {
+              current += char;
+            }
+          }
+
+          cells.push(current.trim());
+          rows.push(cells.map((cell) => cell.replace(/^"|"$/g, '').trim()));
+        });
+
+        return rows;
+      }
+
+      function getSpreadsheetData(csvText) {
+        const rows = parseCsvRows(csvText);
+        if (rows.length < 2) return [];
+
+        const headers = rows[0].map((header) => header.toLowerCase().trim());
+        const dataRows = rows.slice(1).filter((row) => row.some((cell) => String(cell).trim() !== ''));
+
+        const getIndex = (label) => headers.indexOf(label.toLowerCase());
+        const getValue = (row, label) => {
+          const index = getIndex(label);
+          return index >= 0 ? Number(String(row[index] || '0').replace(/[^0-9-]/g, '')) || 0 : 0;
+        };
+
+        return dataRows.map((row) => {
+          const bulan = row[getIndex('bulan')] || '-';
+          const pemasukan = getValue(row, 'pemasukan');
+          const pengeluaran = getValue(row, 'pengeluaran');
+          const saldoAkhir = getValue(row, 'saldo akhir');
+
+          return { bulan, pemasukan, pengeluaran, saldoAkhir };
+        }).filter((item) => item.bulan !== '-');
+      }
+
+      function renderDonationSummary(dataList) {
+        if (!dataList || dataList.length === 0) {
+          document.getElementById('donationSummary').innerHTML = `
+            <p style="color:#6b7280; text-align:center; padding:24px;">
+              Belum ada data tersedia dari spreadsheet. Silakan periksa kembali nanti.
+            </p>
+          `;
+          return;
+        }
+
+        const tableRows = dataList.map((item) => `
+          <tr>
+            <td>${item.bulan}</td>
+            <td style="text-align:right; color:#006A5E; font-weight:500;">${formatRupiah(item.pemasukan)}</td>
+            <td style="text-align:right; color:#dc2626; font-weight:500;">${formatRupiah(item.pengeluaran)}</td>
+            <td style="text-align:right; font-weight:600;">${formatRupiah(item.saldoAkhir)}</td>
+          </tr>
+        `).join('');
+
+        document.getElementById('donationSummary').innerHTML = `
+          <div style="overflow-x:auto; -webkit-overflow-scrolling:touch;">
+            <table class="donation-table">
+              <thead>
+                <tr>
+                  <th data-i18n="month">Bulan</th>
+                  <th style="text-align:right;" data-i18n="income">Pemasukan</th>
+                  <th style="text-align:right;" data-i18n="expense">Pengeluaran</th>
+                  <th style="text-align:right;" data-i18n="balance">Saldo Akhir</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${tableRows}
+              </tbody>
+            </table>
+          </div>
+          <p style="margin-top:12px; font-size:0.85rem; color:#6b7280; text-align:center;">
+            <span data-i18n="autoUpdate">Data otomatis diperbarui dari spreadsheet. Terakhir dimuat:</span> ${new Date().toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' })}
+          </p>
+        `;
+      }
+
+      async function fetchDonationSummary() {
+        const spreadsheetUrl = donationConfig.spreadsheetUrl || 'https://docs.google.com/spreadsheets/d/1r1YORwHudpo09G49R0n2sbYY8Vr_mkvZ7m-r2AJSB9k/edit?usp=drivesdk';
+
+        try {
+          const response = await fetch(spreadsheetUrl.replace('/edit?', '/export?format=csv&'));
+          if (!response.ok) throw new Error('Spreadsheet tidak dapat diakses');
+          const csvText = await response.text();
+
+          // Debug: tampilkan data mentah dari spreadsheet
+          console.log('CSV dari spreadsheet:', csvText.substring(0, 500));
+
+          const dataList = getSpreadsheetData(csvText);
+          if (dataList && dataList.length > 0) {
+            console.log('Data yang berhasil diproses:', dataList);
+            renderDonationSummary(dataList);
+            return;
+          } else {
+            console.warn('Data dari spreadsheet kosong atau tidak dapat diproses');
+          }
+        } catch (error) {
+          console.warn('Data spreadsheet donasi belum tersedia.', error);
+        }
+
+        renderDonationSummary([]);
+      }
+
+      document.getElementById('bsiAccountNumber').textContent = donationConfig.accounts[0].accountNumber;
+      document.getElementById('bjbAccountNumber').textContent = donationConfig.accounts[1].accountNumber;
+
+      document.getElementById('copyBsiBtn').addEventListener('click', async () => {
+        try {
+          await navigator.clipboard.writeText(donationConfig.accounts[0].accountNumber);
+          const button = document.getElementById('copyBsiBtn');
+          const previous = button.textContent;
+          button.textContent = 'Tersalin';
+          setTimeout(() => {
+            button.textContent = previous;
+          }, 1200);
+        } catch (error) {
+          console.warn('Clipboard tidak didukung di browser ini.', error);
+        }
+      });
+
+      document.getElementById('copyBjbBtn').addEventListener('click', async () => {
+        try {
+          await navigator.clipboard.writeText(donationConfig.accounts[1].accountNumber);
+          const button = document.getElementById('copyBjbBtn');
+          const previous = button.textContent;
+          button.textContent = 'Tersalin';
+          setTimeout(() => {
+            button.textContent = previous;
+          }, 1200);
+        } catch (error) {
+          console.warn('Clipboard tidak didukung di browser ini.', error);
+        }
+      });
+
+      fetchDonationSummary();
+    </script>
+  </body>
+</html>

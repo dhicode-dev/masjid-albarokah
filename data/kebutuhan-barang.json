@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Sajadah dan karpet",
+    "kategori": "Perlengkapan ibadah",
+    "dibutuhkan": 120,
+    "terpenuhi": 82,
+    "prioritas": "Tinggi",
+    "status": "Sebagian terpenuhi"
+  },
+  {
+    "name": "Al-Qur'an dan buku agama",
+    "kategori": "Pendidikan",
+    "dibutuhkan": 80,
+    "terpenuhi": 64,
+    "prioritas": "Tinggi",
+    "status": "Sebagian terpenuhi"
+  },
+  {
+    "name": "Peralatan kebersihan",
+    "kategori": "Kebersihan",
+    "dibutuhkan": 35,
+    "terpenuhi": 30,
+    "prioritas": "Sedang",
+    "status": "Sebagian terpenuhi"
+  },
+  {
+    "name": "Kipas angin dan AC",
+    "kategori": "Elektrikal",
+    "dibutuhkan": 18,
+    "terpenuhi": 8,
+    "prioritas": "Tinggi",
+    "status": "Dibutuhkan"
+  },
+  {
+    "name": "Lampu dan listrik",
+    "kategori": "Elektrikal",
+    "dibutuhkan": 50,
+    "terpenuhi": 50,
+    "prioritas": "Tinggi",
+    "status": "Terpenuhi"
+  },
+  {
+    "name": "Pengeras suara",
+    "kategori": "Audio",
+    "dibutuhkan": 4,
+    "terpenuhi": 2,
+    "prioritas": "Sedang",
+    "status": "Dibutuhkan"
+  },
+  {
+    "name": "Material renovasi",
+    "kategori": "Renovasi",
+    "dibutuhkan": 120,
+    "terpenuhi": 70,
+    "prioritas": "Tinggi",
+    "status": "Sebagian terpenuhi"
+  },
+  {
+    "name": "Peralatan kegiatan",
+    "kategori": "Kegiatan",
+    "dibutuhkan": 20,
+    "terpenuhi": 20,
+    "prioritas": "Sedang",
+    "status": "Terpenuhi"
+  },
+  {
+    "name": "Perlengkapan sosial",
+    "kategori": "Sosial",
+    "dibutuhkan": 75,
+    "terpenuhi": 53,
+    "prioritas": "Rendah",
+    "status": "Sebagian terpenuhi"
+  }
+]

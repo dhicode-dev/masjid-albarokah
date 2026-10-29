@@ -1,0 +1,121 @@
+{
+  "period": "Januari - Juni 2026",
+  "updated_at": "2026-06-30",
+  "bendahara": "M. Yusuf ",
+  "penyetuju": "Ketua DKM",
+  "status": "Terverifikasi",
+  "saldo_awal": 12000000,
+  "sheet_name": "Keuangan Masjid 2026 ",
+  "update_note": "DKM dapat mengedit data pada template spreadsheet lalu menyalin hasilnya ke file JSON ini agar website tetap terupdate.",
+  "catatan": "Laporan keuangan tahap awal untuk pembangunan dan kebersihan masjid.",
+  "laporan": [
+    {
+      "bulan": "Januari",
+      "pemasukan": {
+        "infak": 3500000,
+        "sedekah": 2400000,
+        "donasi": 6000000,
+        "lainnya": 2500000
+      },
+      "pengeluaran": {
+        "operasional": 2000000,
+        "kebersihan": 1200000,
+        "listrik": 1500000,
+        "air": 500000,
+        "kegiatan": 1800000,
+        "pembangunan": 2500000
+      },
+      "saldo_akhir": 15250000
+    },
+    {
+      "bulan": "Februari",
+      "pemasukan": {
+        "infak": 4200000,
+        "sedekah": 2600000,
+        "donasi": 5700000,
+        "lainnya": 2100000
+      },
+      "pengeluaran": {
+        "operasional": 2200000,
+        "kebersihan": 1300000,
+        "listrik": 1400000,
+        "air": 600000,
+        "kegiatan": 1900000,
+        "pembangunan": 2400000
+      },
+      "saldo_akhir": 17000000
+    },
+    {
+      "bulan": "Maret",
+      "pemasukan": {
+        "infak": 3900000,
+        "sedekah": 2800000,
+        "donasi": 6600000,
+        "lainnya": 2300000
+      },
+      "pengeluaran": {
+        "operasional": 2300000,
+        "kebersihan": 1400000,
+        "listrik": 1600000,
+        "air": 700000,
+        "kegiatan": 2000000,
+        "pembangunan": 2600000
+      },
+      "saldo_akhir": 18250000
+    },
+    {
+      "bulan": "April",
+      "pemasukan": {
+        "infak": 4500000,
+        "sedekah": 3000000,
+        "donasi": 7100000,
+        "lainnya": 2600000
+      },
+      "pengeluaran": {
+        "operasional": 2400000,
+        "kebersihan": 1450000,
+        "listrik": 1700000,
+        "air": 750000,
+        "kegiatan": 2100000,
+        "pembangunan": 3100000
+      },
+      "saldo_akhir": 19800000
+    },
+    {
+      "bulan": "Mei",
+      "pemasukan": {
+        "infak": 4800000,
+        "sedekah": 3200000,
+        "donasi": 7300000,
+        "lainnya": 2900000
+      },
+      "pengeluaran": {
+        "operasional": 2500000,
+        "kebersihan": 1500000,
+        "listrik": 1800000,
+        "air": 800000,
+        "kegiatan": 2200000,
+        "pembangunan": 3400000
+      },
+      "saldo_akhir": 20650000
+    },
+    {
+      "bulan": "Juni",
+      "pemasukan": {
+        "infak": 5000000,
+        "sedekah": 3400000,
+        "donasi": 7600000,
+        "lainnya": 3100000
+      },
+      "pengeluaran": {
+        "operasional": 2700000,
+        "kebersihan": 1600000,
+        "listrik": 1900000,
+        "air": 850000,
+        "kegiatan": 2300000,
+        "pembangunan": 3900000
+      },
+      "saldo_akhir": 21750000
+    }
+  ]
+}

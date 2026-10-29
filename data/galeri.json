@@ -1,0 +1,67 @@
+{
+  "bangunan": [
+    {
+      "title": "Tampak Depan Masjid",
+      "image": "assets/images/tampak-depan.jpeg",
+      "alt": "Tampak depan Masjid Al Barokah",
+      "description": "Tampilan depan masjid dari arah jalan utama"
+    },
+    {
+      "title": "Tampak Belakang",
+      "image": "assets/images/tampak-belakang.jpeg",
+      "alt": "Tampak belakang Masjid Al Barokah",
+      "description": "Area belakang masjid"
+    },
+    {
+      "title": "Tampak Dalam - Ruang Utama",
+      "image": "assets/images/tampak-dalam.jpeg",
+      "alt": "Ruang utama masjid",
+      "description": "Ruang shalat utama masjid"
+    },
+    {
+      "title": "Tampak Dalam - Area Shalat",
+      "image": "assets/images/tampak-dalam2.jpeg",
+      "alt": "Area shalat dalam masjid",
+      "description": "Area shalat jamaah di dalam masjid"
+    },
+    {
+      "title": "Tempat Wudhu",
+      "image": "assets/images/tempat-wudhu.jpeg",
+      "alt": "Tempat wudhu masjid",
+      "description": "Area wudhu untuk jamaah"
+    }
+  ],
+  "kegiatan": [
+    {
+      "title": "Pengajian Pemuda Rutin",
+      "image": "https://images.unsplash.com/photo-1609599006353-e629aaabfeae?w=800&h=600&fit=crop",
+      "alt": "Kegiatan pengajian pemuda",
+      "description": "Pengajian rutin pemuda masjid sebulan sekali"
+    },
+    {
+      "title": "Kerja Bakti Masjid",
+      "image": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&h=600&fit=crop",
+      "alt": "Kerja bakti membersihkan masjid",
+      "description": "Gotong royong warga membersihkan area masjid"
+    },
+    {
+      "title": "Kegiatan Sosial",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?w=800&h=600&fit=crop",
+      "alt": "Kegiatan sosial di masjid",
+      "description": "Pembagian bantuan untuk masyarakat kurang mampu"
+    },
+    {
+      "title": "Shalat Berjamaah",
+      "image": "assets/images/berjamaah.jpg",
+      "alt": "Shalat berjamaah di masjid",
+      "description": "Suasana shalat berjamaah lima waktu"
+    },
+    {
+      "title": "Ramadhan dan Tarawih",
+      "image": "assets/images/ramadhan.jpeg",
+      "alt": "Suasana Ramadhan di masjid",
+      "description": "Kegiatan spesial bulan Ramadhan dan shalat tarawih"
+    }
+  ]
+}
+

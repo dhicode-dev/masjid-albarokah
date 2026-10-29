@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <meta name="theme-color" content="#006A5E" />
+    <meta property="og:title" content="Galeri Masjid | Masjid Al Barokah" />
+    <meta property="og:description" content="Galeri kegiatan dan fasilitas di Masjid Al Barokah Jasinga, Kabupaten Bogor." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/images/background-masjid.jpg" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="canonical" href="https://masjidalbarokah.org/galeri.html" />
+    <title>Galeri Masjid | Masjid Al Barokah</title>
+    <meta name="description" content="Galeri kegiatan dan fasilitas di Masjid Al Barokah Jasinga, Kabupaten Bogor." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" href="assets/images/logo/favicon-32.png" type="image/png" />
+  </head>
+  <body>
+    <header class="navbar"><div class="container navbar-inner"><a class="brand" href="index.html"><img src="assets/images/logo/masjid-lambang-128.png" alt="Logo Masjid Al Barokah" /><span>Masjid Al Barokah</span></a><button class="nav-toggle" aria-label="Buka menu navigasi" type="button">☰</button><nav aria-label="Navigasi utama"><ul class="nav-links"><li><a href="index.html">Beranda</a></li><li><a href="profil.html">Profil</a></li><li><a href="jadwal-salat.html">Jadwal Salat</a></li><li><a href="kegiatan.html">Kegiatan</a></li><li><a href="berita.html">Berita</a></li><li><a href="pengumuman.html">Pengumuman</a></li><li><a href="galeri.html" class="active">Galeri</a></li><li><a href="pengurus.html">Pengurus</a></li><li><a href="fasilitas.html">Fasilitas</a></li><li><a href="kontak.html">Kontak</a></li><li><a href="donasi.html">Donasi</a></li></ul></nav><div class="nav-actions"><a class="btn btn-primary" href="donasi.html">Donasi</a></div></div></header>
+    <main>
+      <section class="page-header"><div class="container"><h1 data-i18n="pageGallery">Galeri</h1><p>Dokumentasi bangunan dan kegiatan masjid Al Barokah.</p></div></section>
+      <section class="page-content">
+        <div class="container">
+          <!-- Filter Tabs -->
+          <div style="display:flex; gap:12px; margin-bottom:24px; flex-wrap:wrap; justify-content:center;">
+            <button class="btn btn-primary galeri-tab active" data-filter="all">Semua</button>
+            <button class="btn btn-secondary galeri-tab" data-filter="bangunan">Dokumentasi Bangunan</button>
+            <button class="btn btn-secondary galeri-tab" data-filter="kegiatan">Dokumentasi Kegiatan</button>
+          </div>
+
+          <!-- Gallery Grid -->
+          <div id="galeriList" class="card-grid"></div>
+        </div>
+      </section>
+
+      <!-- Lightbox Modal -->
+      <div id="lightboxModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); z-index:9999; justify-content:center; align-items:center; cursor:pointer;" onclick="closeLightbox()">
+        <img id="lightboxImage" src="" alt="" style="max-width:90%; max-height:90%; object-fit:contain; border-radius:8px;" />
+        <div style="position:absolute; top:20px; right:30px; color:white; font-size:40px; cursor:pointer;" onclick="closeLightbox()">&times;</div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3 data-i18n="siteName">Masjid Al Barokah</h3>
+        </div>
+        <div>
+          <h4 data-i18n="footerContact">Kontak</h4>
+          <ul>
+            <li data-i18n="phone">Telepon</li>
+            <li>0838-9702-6202</li>
+            <li data-i18n="whatsapp">WhatsApp</li>
+            <li>0838-9702-6202</li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footerAddress">Alamat</h4>
+          <ul>
+            <li>Kp. Sipak 1 RT002 RW004 (Lebak)</li>
+            <li>Kecamatan Jasinga, Kabupaten Bogor</li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footerHours">Jam</h4>
+          <ul>
+            <li>04.00 - 22.00 WIB</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">© <span id="currentYear">2026</span> <span data-i18n="siteName">Masjid Al Barokah</span><br />By Develop Rivaldi Hidayatullah</div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+    <script>
+      let galleryData = { bangunan: [], kegiatan: [] };
+
+      // Load gallery data
+      fetch('data/galeri.json')
+        .then((r) => r.json())
+        .then((data) => {
+          galleryData = data;
+          renderGallery('all');
+        });
+
+      // Render gallery based on filter
+      function renderGallery(filter) {
+        const list = document.getElementById('galeriList');
+        let items = [];
+
+        if (filter === 'all') {
+          items = [
+            ...galleryData.bangunan.map(item => ({ ...item, kategori: 'bangunan' })),
+            ...galleryData.kegiatan.map(item => ({ ...item, kategori: 'kegiatan' }))
+          ];
+        } else if (filter === 'bangunan') {
+          items = galleryData.bangunan.map(item => ({ ...item, kategori: 'bangunan' }));
+        } else if (filter === 'kegiatan') {
+          items = galleryData.kegiatan.map(item => ({ ...item, kategori: 'kegiatan' }));
+        }
+
+        list.innerHTML = items.map((item) => `
+          <article class="feature-card" style="cursor:pointer;" onclick="openLightbox('${item.image}')" title="Klik untuk melihat gambar lebih besar">
+            <img src="${item.image}" alt="${item.alt}" style="width:100%;height:220px;object-fit:cover;border-radius:14px;margin-bottom:14px;" />
+            <div style="display:inline-block; padding:4px 10px; background:${item.kategori === 'bangunan' ? '#006A5E' : '#f59e0b'}; color:white; font-size:0.75rem; font-weight:600; border-radius:6px; margin-bottom:8px;">
+              ${item.kategori === 'bangunan' ? 'Bangunan' : 'Kegiatan'}
+            </div>
+            <h3 style="margin-bottom:8px;">${item.title}</h3>
+            <p style="font-size:0.9rem; color:#6b7280; margin:0;">${item.description || ''}</p>
+          </article>
+        `).join('');
+      }
+
+      // Tab switching
+      document.querySelectorAll('.galeri-tab').forEach(tab => {
+        tab.addEventListener('click', function() {
+          // Remove active class from all tabs
+          document.querySelectorAll('.galeri-tab').forEach(t => {
+            t.classList.remove('active');
+            t.classList.remove('btn-primary');
+            t.classList.add('btn-secondary');
+          });
+
+          // Add active class to clicked tab
+          this.classList.add('active');
+          this.classList.remove('btn-secondary');
+          this.classList.add('btn-primary');
+
+          // Render gallery with filter
+          const filter = this.dataset.filter;
+          renderGallery(filter);
+        });
+      });
+
+      // Lightbox functions
+      function openLightbox(imageSrc) {
+        const modal = document.getElementById('lightboxModal');
+        const img = document.getElementById('lightboxImage');
+        img.src = imageSrc;
+        modal.style.display = 'flex';
+      }
+
+      function closeLightbox() {
+        document.getElementById('lightboxModal').style.display = 'none';
+      }
+
+      // Close lightbox with Escape key
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+          closeLightbox();
+        }
+      });
+    </script>
+  </body>
+</html>
+

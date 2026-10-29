@@ -1,0 +1,11 @@
+# Development tools
+tools/
+tests/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store

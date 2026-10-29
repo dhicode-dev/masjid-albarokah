@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Pengajian Pemuda Rutin",
+    "category": "Kajian",
+    "day": "Awal bulan",
+    "time": "19.00 WIB",
+    "speaker": "Pengurus Masjid",
+    "location": "Masjid Al Barokah",
+    "description": "Kajian rutin dilaksanakan sebulan sekali di awal bulan untuk pembinaan ukhuwah, akhlak, dan pemahaman agama di kalangan pemuda."
+  },
+  {
+    "title": "Kerja Bakti Pembangunan dan Kebersihan Masjid",
+    "category": "Sosial",
+    "day": "Sesuai kondisi",
+    "time": "Bersifat insidentil",
+    "speaker": "Jamaah dan Pengurus Masjid",
+    "location": "Masjid Al Barokah",
+    "description": "Kegiatan kerja bakti pembangunan dan kebersihan masjid dilaksanakan sesuai kondisi serta kebutuhan lingkungan dan fasilitas masjid."
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "target": 250000000,
+  "terkumpul": 87500000,
+  "periode": "1 Januari - 31 Desember 2026",
+  "tujuan": "Renovasi atap dan perluasan area wudhu putri",
+  "rekening": {
+    "bank": "Bank Syariah Indonesia",
+    "nomor": "123-456-7890-1",
+    "pemilik": "DKM Masjid Al Barokah",
+    "aktif": true
+  },
+  "qris": {
+    "aktif": true,
+    "image": "assets/images/qris-placeholder.svg"
+  },
+  "donationButtonText": "Konfirmasi Donasi via WhatsApp"
+}

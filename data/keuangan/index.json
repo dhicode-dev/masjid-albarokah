@@ -1,0 +1,6 @@
+{
+  "years": [2026, 2025],
+  "latest": 2026,
+  "status": "Terverifikasi sebagian",
+  "note": "DKM dapat memperbarui data bulanan pada spreadsheet lalu website akan mengambil data terbaru dari Google Sheets ketika halaman dibuka."
+}
