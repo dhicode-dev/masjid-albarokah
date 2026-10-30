@@ -2,29 +2,22 @@
   {
     "title": "Jadwal Pengajian Pemuda Rutin",
     "category": "Kajian",
-    "date": "2026-10-25",
-    "expiry": "2026-10-25",
+    "date": "Awal bulan",
+    "expiry": "Tidak Ditentukan",
     "content": "Pengajian pemuda rutin dilaksanakan sebulan sekali pada awal bulan."
   },
   {
     "title": "Kerja Bakti Pembangunan dan Kebersihan Masjid",
     "category": "Lingkungan",
-    "date": "2026-10-27",
-    "expiry": "2026-11-03",
+    "date": "Akan diinformasikan sesuai kondisi",
+    "expiry": "Tidak Ditentukan",
     "content": "Kerja bakti pembangunan dan kebersihan masjid akan dilaksanakan setelah ada informasi melalui pengeras suara."
   },
   {
     "title": "Penerimaan Zakat Fitrah",
     "category": "Sosial",
-    "date": "2026-10-15",
-    "expiry": "2026-11-15",
+    "date": "Setiap tahun di bulan Ramadhan",
+    "expiry": "Tidak Ditentukan",
     "content": "Pengumpulan zakat fitrah dibuka untuk keluarga yang membutuhkan pendistribusian merata."
-  },
-  {
-    "title": "Pelatihan Tata Kelola Donasi",
-    "category": "Pelatihan",
-    "date": "2026-11-02",
-    "expiry": "2026-11-02",
-    "content": "Pelatihan singkat kepada pengurus terkait administrasi dan pelaporan donasi."
   }
 ]
