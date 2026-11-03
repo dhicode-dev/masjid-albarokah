@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://masjidalbarokah.org/sitemap.xml
+Sitemap: https://dhicode-dev.github.io/masjid-albarokah/sitemap.xml
