@@ -357,7 +357,7 @@
           <article class="feature-card" >
             <div class="kicker">Periode</div>
             <h3>6 bulan</h3>
-            <p>Data cadangan</p>
+            <p>Data tercatat</p>
           </article>
           <article class="feature-card" >
             <div class="kicker">Pemasukan</div>
@@ -389,7 +389,7 @@
       }
 
       if (metaInfo) {
-        metaInfo.innerHTML = 'Status: <strong>Data cadangan</strong><br>Catatan: Struktur spreadsheet disesuaikan dengan konfigurasi keuangan.';
+        metaInfo.innerHTML = 'Status: <strong>Data tersedia</strong><br>Catatan: Struktur data disesuaikan dengan konfigurasi keuangan.';
       }
     }
   }
