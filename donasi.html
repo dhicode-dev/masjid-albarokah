@@ -8,9 +8,20 @@
     <meta property="og:title" content="Donasi Masjid | Masjid Al Barokah" />
     <meta property="og:description" content="Informasi donasi, kebutuhan barang, dan pengembangan masjid Al Barokah di Jasinga." />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="assets/images/background-masjid.jpg" />
+    <meta property="og:image" content="https://dhicode-dev.github.io/masjid-albarokah/assets/images/logo/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Masjid Al Barokah, Jasinga, Kabupaten Bogor" />
+    <meta property="og:url" content="https://dhicode-dev.github.io/masjid-albarokah/donasi.html" />
+    <meta property="og:site_name" content="Masjid Al Barokah" />
+    <meta property="og:locale" content="id_ID" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Donasi Masjid | Masjid Al Barokah" />
+    <meta name="twitter:description" content="Informasi donasi dan pengembangan masjid Al Barokah di Jasinga." />
+    <meta name="twitter:image" content="https://dhicode-dev.github.io/masjid-albarokah/assets/images/logo/og-image.png" />
     <link rel="manifest" href="manifest.webmanifest" />
-    <link rel="canonical" href="https://masjidalbarokah.org/donasi.html" />
+    <link rel="canonical" href="https://dhicode-dev.github.io/masjid-albarokah/donasi.html" />
     <title>Donasi Masjid | Masjid Al Barokah</title>
     <meta name="description" content="Informasi donasi, kebutuhan barang, dan pengembangan masjid Al Barokah di Jasinga." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,20 +46,9 @@
           <div class="feature-card" style="margin-bottom: 24px;">
             <div class="kicker" data-i18n="donationAccounts">Nomor rekening donasi</div>
             <h2 data-i18n="donationTitle">Transfer untuk dukungan masjid</h2>
-            <p style="margin-top:8px; color:#6b7280;" data-i18n="chooseAccount">Pilih rekening untuk donasi</p>
-            <div style="display:grid; gap:16px; margin-top: 16px;">
-              <div style="background:#f5faf8; border:1px solid rgba(0,106,94,0.12); border-radius:12px; padding:16px;">
-                <div style="height:56px; display:flex; align-items:center; justify-content:flex-start; margin-bottom:12px;">
-                  <img src="assets/images/logo/bank-bsi.jpg" alt="Logo BSI" style="height:36px; max-width:160px; object-fit:contain;" />
-                </div>
-                <p style="font-weight:600; color:#006A5E; margin-bottom:8px;" data-i18n="accountBSI">BSI - Bank Syariah Indonesia</p>
-                <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap;">
-                  <span id="bsiAccountNumber" style="font-weight:700; letter-spacing:0.04em; font-size:1.1rem;">7290100757</span>
-                  <button class="btn btn-primary" type="button" id="copyBsiBtn" data-i18n="copyAccount">Salin nomor</button>
-                </div>
-                <p style="margin-top:8px; font-size:0.9rem; color:#6b7280;"><strong data-i18n="accountName">Atas nama:</strong> <span data-i18n="siteName">Masjid Al Barokah</span></p>
-              </div>
-              <div style="background:#f5faf8; border:1px solid rgba(0,106,94,0.12); border-radius:12px; padding:16px;">
+            <p style="margin-top:8px; color:#6b7280;" data-i18n="chooseAccount">Pilih rekening untuk donasi pembangunan masjid</p>
+            <div style="margin-top: 16px;">
+              <div style="background:#f5faf8; border:1px solid rgba(0,106,94,0.12); border-radius:12px; padding:20px;">
                 <div style="height:56px; display:flex; align-items:center; justify-content:flex-start; margin-bottom:12px;">
                   <img src="assets/images/logo/bank-bjb.jpg" alt="Logo BJB" style="height:48px; max-width:160px; object-fit:contain;" />
                 </div>
@@ -57,20 +57,22 @@
                   <span id="bjbAccountNumber" style="font-weight:700; letter-spacing:0.04em; font-size:1.1rem;">0148061629100</span>
                   <button class="btn btn-primary" type="button" id="copyBjbBtn" data-i18n="copyAccount">Salin nomor</button>
                 </div>
-                <p style="margin-top:8px; font-size:0.9rem; color:#6b7280;"><strong data-i18n="accountName">Atas nama:</strong> <span data-i18n="siteName">Masjid Al Barokah</span></p>
+                <p style="margin-top:8px; font-size:0.9rem; color:#6b7280;"><strong data-i18n="accountName">Atas nama:</strong> <span data-i18n="siteName">MASJID AL BAROKAH</span></p>
+                <div style="margin-top:16px; padding:12px; background:rgba(0,106,94,0.08); border-radius:8px; border-left:3px solid #006A5E;">
+                  <p style="margin:0; font-size:0.9rem; color:#006A5E;"><i class="bi bi-info-circle"></i> <strong>Keterangan:</strong> Rekening ini khusus digunakan untuk donasi pembangunan Masjid Al Barokah.</p>
+                </div>
               </div>
             </div>
           </div>
 
           <div class="feature-card" style="margin-bottom: 24px;">
-            <div class="kicker" data-i18n="spreadsheetData">Data terkini dari spreadsheet</div>
+            <div class="kicker" data-i18n="spreadsheetData">Data terkini</div>
             <h2 data-i18n="donationSummary">Ringkasan donasi</h2>
             <div id="donationSummary" style="margin-top: 16px;"></div>
           </div>
 
-          <div class="feature-card">
-            <h2 data-i18n="spreadsheetUpdate">Data dapat diperbarui dari spreadsheet</h2>
-            <p data-i18n="spreadsheetDesc">Data di halaman ini akan otomatis ditampilkan dari spreadsheet yang telah ditentukan oleh pengurus. Sambungan data ini dibuat agar pembaruan dana tetap cepat tanpa perlu menulis ulang manual di halaman.</p>
+          <div class="feature-card" style="margin-bottom: 24px;">
+            <p style="color:#6b7280; font-size:0.95rem;" data-i18n="spreadsheetDesc">Ringkasan penerimaan donasi, diperbarui secara berkala oleh pengurus.</p>
           </div>
         </div>
       </section>
@@ -84,9 +86,9 @@
           <h4 data-i18n="footerContact">Kontak</h4>
           <ul>
             <li data-i18n="phone">Telepon</li>
-            <li>0838-9702-6202</li>
+            <li>0856-1770-957</li>
             <li data-i18n="whatsapp">WhatsApp</li>
-            <li>0838-9702-6202</li>
+            <li>0856-1770-957</li>
           </ul>
         </div>
         <div>
@@ -110,14 +112,10 @@
       const donationConfig = {
         accounts: [
           {
-            bank: 'Bank Syariah Indonesia (BSI)',
-            accountNumber: '7290100757',
-            accountName: 'Masjid Al Barokah'
-          },
-          {
             bank: 'Bank Pembangunan Jawa Barat (BJB)',
             accountNumber: '0148061629100',
-            accountName: 'MASJID AL BAROKAH'
+            accountName: 'MASJID AL BAROKAH',
+            note: 'Khusus donasi pembangunan Masjid Al Barokah'
           }
         ],
         target: 250000000,
@@ -193,7 +191,7 @@
         if (!dataList || dataList.length === 0) {
           document.getElementById('donationSummary').innerHTML = `
             <p style="color:#6b7280; text-align:center; padding:24px;">
-              Belum ada data tersedia dari spreadsheet. Silakan periksa kembali nanti.
+              Belum ada data tersedia saat ini. Silakan periksa kembali nanti.
             </p>
           `;
           return;
@@ -225,7 +223,7 @@
             </table>
           </div>
           <p style="margin-top:12px; font-size:0.85rem; color:#6b7280; text-align:center;">
-            <span data-i18n="autoUpdate">Data otomatis diperbarui dari spreadsheet. Terakhir dimuat:</span> ${new Date().toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' })}
+            <span data-i18n="autoUpdate">Data diperbarui secara berkala. Terakhir dimuat:</span> ${new Date().toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' })}
           </p>
         `;
       }
@@ -235,7 +233,7 @@
 
         try {
           const response = await fetch(spreadsheetUrl.replace('/edit?', '/export?format=csv&'));
-          if (!response.ok) throw new Error('Spreadsheet tidak dapat diakses');
+          if (!response.ok) throw new Error('Data tidak dapat diakses');
           const csvText = await response.text();
 
           // Debug: tampilkan data mentah dari spreadsheet
@@ -256,26 +254,11 @@
         renderDonationSummary([]);
       }
 
-      document.getElementById('bsiAccountNumber').textContent = donationConfig.accounts[0].accountNumber;
-      document.getElementById('bjbAccountNumber').textContent = donationConfig.accounts[1].accountNumber;
-
-      document.getElementById('copyBsiBtn').addEventListener('click', async () => {
-        try {
-          await navigator.clipboard.writeText(donationConfig.accounts[0].accountNumber);
-          const button = document.getElementById('copyBsiBtn');
-          const previous = button.textContent;
-          button.textContent = 'Tersalin';
-          setTimeout(() => {
-            button.textContent = previous;
-          }, 1200);
-        } catch (error) {
-          console.warn('Clipboard tidak didukung di browser ini.', error);
-        }
-      });
+      document.getElementById('bjbAccountNumber').textContent = donationConfig.accounts[0].accountNumber;
 
       document.getElementById('copyBjbBtn').addEventListener('click', async () => {
         try {
-          await navigator.clipboard.writeText(donationConfig.accounts[1].accountNumber);
+          await navigator.clipboard.writeText(donationConfig.accounts[0].accountNumber);
           const button = document.getElementById('copyBjbBtn');
           const previous = button.textContent;
           button.textContent = 'Tersalin';
