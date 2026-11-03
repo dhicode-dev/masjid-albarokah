@@ -2,12 +2,13 @@
   "site": {
     "name": "Masjid Al Barokah",
     "tagline": "Menyatukan ibadah, pendidikan, dan kebersamaan komunitas Jasinga.",
-    "baseUrl": "https://masjidalbarokah.org/",
+    "base_url": "https://dhicode-dev.github.io/masjid-albarokah/",
+    "baseUrl": "https://dhicode-dev.github.io/masjid-albarokah/",
     "yearFounded": 1998,
-    "capacity": 800,
+    "capacity": 400,
     "openHours": "04.00-22.00 WIB",
-    "phone": "0838-9702-6202",
-    "whatsapp": "0838-9702-6202",
+    "phone": "0856-1770-957",
+    "whatsapp": "0856-1770-957",
     "address": "Kp. Sipak 1 RT002 RW004 (Lebak), Kecamatan Jasinga, Kabupaten Bogor",
     "addressShort": "Kp. Sipak 1 RT002 RW004 (Lebak), Jasinga, Bogor",
     "plusCode": "GF9G+XF2",
@@ -26,14 +27,10 @@
   "donasi": {
     "accounts": [
       {
-        "bank": "Bank Syariah Indonesia (BSI)",
-        "accountNumber": "7290100757",
-        "accountName": "Masjid Al Barokah"
-      },
-      {
         "bank": "Bank Pembangunan Jawa Barat (BJB)",
         "accountNumber": "0148061629100",
-        "accountName": "MASJID AL BAROKAH"
+        "accountName": "MASJID AL BAROKAH",
+        "note": "Khusus donasi pembangunan Masjid Al Barokah"
       }
     ],
     "target": 250000000,
