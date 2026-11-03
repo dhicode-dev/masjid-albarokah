@@ -5,7 +5,8 @@
   "display": "standalone",
   "background_color": "#f7faf9",
   "theme_color": "#006A5E",
-  "description": "Website profil masjid contoh untuk Jasinga, Kabupaten Bogor.",
+  "scope": "./",
+  "description": "Website profil Masjid Al Barokah di Jasinga, Kabupaten Bogor.",
   "icons": [
     {
       "src": "assets/images/logo/favicon-32.png",
