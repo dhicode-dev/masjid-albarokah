@@ -1,19 +1,24 @@
 {
   "struktur": [
     {
+      "jabatan": "Ketua Pembangunan",
+      "nama": "Nurjani",
+      "kontak": "0857-8007-2344"
+    },
+    {
       "jabatan": "Ketua DKM",
-      "nama": "Fahrudin",
+      "nama": "Dodo Pahrudin",
       "kontak": "0858-8832-7180"
     },
     {
       "jabatan": "Sekretaris",
-      "nama": "Wahyudin",
-      "kontak": "0821-8900-5087"
+      "nama": "Asep Baher",
+      "kontak": "0815-8665-8553"
     },
     {
       "jabatan": "Bendahara",
-      "nama": "Ukap",
-      "kontak": "0838-9702-6202"
+      "nama": "Holiden Mubarok",
+      "kontak": "0856-1770-957"
     }
   ]
 }
